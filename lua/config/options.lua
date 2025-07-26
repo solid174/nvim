@@ -1,2 +1,7 @@
-vim.opt.spell = true
-vim.opt.spelllang = { "en_us", "ru" }
+local opt = vim.opt
+
+opt.spell = true
+opt.spelllang = { "en_us", "ru" }
+
+opt.fixendofline = false
+opt.endofline = false
