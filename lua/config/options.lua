@@ -5,3 +5,13 @@ opt.spelllang = { "en_us", "ru" }
 
 opt.fixendofline = false
 opt.endofline = false
+
+opt.list = true
+opt.listchars = {
+  eol = "↴",
+  tab = "→ ",
+  trail = "·",
+  extends = "»",
+  precedes = "«",
+  -- space = "·", -- если прям хочешь видеть пробелы
+}
